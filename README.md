@@ -12,7 +12,7 @@ This repository contains supplementary figures referenced in our rebuttal respon
                                                                  
 ### Figure: Rebuttal_ValVsTest_PoorDatasets.pdf                                                               
   Description: Cost-Adjusted Regret: Validation vs Test (λ=10⁻⁴). Comparison of stopping rule performance on datasets with poor PBGI performance. Top row: validation-based regret shows PBGI/LogEIPC                
-    (orange) achieving near-hindsight-optimal performance. Bottom row: test-based regret shows              
+    (orange) often achieving near-hindsight-optimal performance. Bottom row: test-based regret shows              
     PBGI/LogEIPC performing substantially worse than hindsight, confirming that the validation              
     signal does not transfer to test performance on these datasets.            
 
