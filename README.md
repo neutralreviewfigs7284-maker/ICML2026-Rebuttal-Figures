@@ -4,11 +4,22 @@ This repository contains supplementary figures referenced in our rebuttal respon
 
 ## Figures
 
-| Figure | Description |
-|--------|-------------|
-| `fig1.png` | *(replace with brief caption)* |
-| `fig2.png` | *(replace with brief caption)* |
-| `fig3.png` | *(replace with brief caption)* |
+### Figure: ValTest_analysis_comparison.pdf                                                                   
+  Description: Top-20 Rank Preservation. Fraction of configurations ranked in the top-20 by validation error
+                                                                                                            
+    that are also in the top-20 by test error. Datasets where PBGI underperforms (red) have                 
+    significantly lower rank preservation (0–35%) compared to well-performing datasets (green,              
+    40–80%), indicating that the best validation configurations do not correspond to the best test          
+     configurations.                                                                                        
+                                                                 
+### Figure: Rebuttal_ValVsTest_PoorDatasets.pdf                                                               
+  Description: Cost-Adjusted Regret: Validation vs Test (λ=10⁻⁴). Comparison of stopping rule performance on
+                                                                                                            
+    datasets with poor PBGI performance. Top row: validation-based regret shows PBGI/LogEIPC                
+    (orange) achieving near-hindsight-optimal performance. Bottom row: test-based regret shows              
+    PBGI/LogEIPC performing substantially worse than hindsight, confirming that the validation              
+    signal does not transfer to test performance on these datasets.            
+
 
 ## Notes
 
